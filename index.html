@@ -3,90 +3,186 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Panteon</title>
+  <title>Pantheon</title>
   <link rel="stylesheet" href="../build/css/style.css">
-  <link href="" rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <div class="container">
-      
+      <!-- БЛОК МЕНЮ -->
+      <div class="header__menu">
+        <a class="logo" href="index.html">
+          <!-- Тут SVG вставить -->
+          <img src="#" alt="Логотип">
+          <p class="logo__name">
+            <span class="logo__name-first">Pantheon</span>
+            <span class="logo__name-last">Project</span>
+          </p>
+        </a>
+        <div class="menu">
+          <span lass="menu__text">Меню</span>
+          <span class="menu__icon">
+            <!-- svg иконка -->
+          </span>
+        </div>
+      </div>
+      <!-- ПРОМО-БЛОК -->
+      <section class="header__promo promo">
+        <!-- <p class="">
+          <span>Пантеон</span>
+          <span>Олимп</span>
+        </p> -->
+        <h1 class="promo__title">
+          <p class="promo__title-city">Пункт назначения: Пантеон,</p>
+          <b class="promo__title-planet">Марс</b>
+        </h1>
+        <p class="promo__slogan">
+          Первый город на планете Марс недалеко от горы Олимп
+        </p>
+        <!-- <video class="promo__video" src="#"></video> -->
+        <video width="400" height="300" controls="controls" poster="#">
+          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          Тег video не поддерживается вашим браузером.
+          <a href="video/duel.mp4">Скачайте видео</a>.
+        </video>
+        <p class="promo__btn-wrap">
+          <button class="promo__btn">
+            <span class="v-hidden">Смотреть дальше</span>
+          </button>
+        </p>
+      </section>
     </div>
   </header>
   <main class="main">
     <div class="container">
-      <!--  -->
-      <section class="branches">
-      </section>
-      <!--  -->
-      <section class="abonements">
-        
-      </section>
-      <!--  -->
-      <section class="team">
-        
-      </section>
-      <!--  -->
-      <section class="reviews">
-        <span class="screen-number">05</span>
-        <h2 class="reviews__title">Отзывы</h2>
-        <div class="reviews__slider slider">
-          <div class="slider__content">
-            <ul class="reviews__list">
-              <li class="review">
-                <div class="review__text">
-                  <p>Хожу на йогу вечером, чтобы расслабиться
-                    после тяжелого трудового дня. И после занятий
-                    наступает спокойствие!</p>
-                  <p>Йога это отличный способ быстро
-                    и качественно расслабиться.
-                    Спасибо инструктору Марине.</p>
-                </div>
-                <div class="review__author reviewer">
-                  <p class="img-wrap">
-                    <img class="reviewer__img" src="#" alt="Аватар автора отзыва">
-                  </p>
-                  <div class="reviewer__info">
-                    <h3 class="reviewer__name">Ссерёжа Попов</h3>
-                    <time datetime="2018-05-16">16 мая 2018</time>
-                    <ul class="reviewer__socials">
-                      <li class="socials__item">
-                        <a href="#">
-                          <span class="v-hidden">VK</span>
-                        </a>
-                      </li>
-                      <li class="socials__item">
-                        <a href="#">
-                          <span class="v-hidden">FB</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="review">
-              </li>
-            </ul>
-          </div>
-          <!-- Контролы -->
-          <div class="slider__controls">
-            <button class="slider__btn slider__btn--prev" disabled>
-              <span>Предыдущий</span>
-            </button>
-            <p class="slider__count counter">
-              <span class="counter__current">1</span>/<span class="counter__all">9</span>
+      <!-- ФИЧИ -->
+      <section class="features">
+        <h2 class="v-hidden">Список особенностей Марса</h2>
+        <ul class="features__list">
+          <li class="features__item feature">
+            <span class="feature__number">4</span>
+            <p class="feature__text">
+              четвёртая планета по удалённости от Солнца
             </p>
-            <button class="slider__btn slider__btn--next">
-              <span>Следущий</span>
-            </button>
+          </li>
+          <li class="features__item feature">
+            <span class="feature__number">7</span>
+            <p class="feature__text">
+              седьмая по размерам планета Солнечной системы
+            </p>
+          </li>
+          <li class="features__item feature">
+            <span class="feature__number">10,7%</span>
+            <p class="feature__text">
+              массы Земли (ваш вес будет в 3 раза меньше, чем на Земле)
+            </p>
+          </li>
+          <li class="features__item feature">
+            <span class="feature__number">2</span>
+            <p class="feature__text">
+              спутника вместо Луны (как картошка, только больше)
+            </p>
+          </li>
+          <li class="features__item feature">
+            <span class="feature__number">21 км</span>
+            <p class="feature__text">
+              высота самой высокой горы Марса
+            </p>
+          </li>
+          <li class="features__item feature">
+            <span class="feature__number">+20</span>
+            <p class="feature__text">
+              максимальная температура на поверхности
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- ЧТО ТАКОЕ МАРС -->
+      <section class="definition">
+        <h2 class="definition__title">Марс. Вспомнить всё</h2>
+        <div class="definition__content">
+          <div class="definition__block">
+            <h3 class="definition__subtitle">Что такое Марс?</h3>
+            <p>
+              Планета Солнечной системы, названа в честь Марса — древнеримского бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.
+            </p>
+            <p>
+              Особенности планеты — наличие слабой отмосферы, состоящей в основном из улекислого газа, времена года, пылевые бури, сильная эррозия почв.
+            </p>
+          </div>
+          <div class="definition__block">
+            <h3 class="definition__subtitle">Где это? Как туда доехать?</h3>
+            <p>
+              Расстояние до Марса — почти 56 миллионов километров. Чтобы преодалеть такое расстояние, нужно лететь на межпланетоном корабле 7-8 месяцев.
+            </p>
           </div>
         </div>
       </section>
+      <!-- От идеи до реал-ции -->
+      <section class="development">
+        <h2 class="development__title">От идеи до реализации</h2>
+        <div class="development__author author">
+          <h3 class="author__title">Илон Маск. Гений или безумец?</h3>
+          <div class="author__content">
+            <div class="author__desk">
+              <p>
+                Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.
+              </p>
+              <blockquote>
+                Мы должны сделать эту мечту реальностью за наше время жизни. Любой человек, который пожелает отправиться на Марс, должен иметь такую возможность.
+              </blockquote>
+              <p>
+                — заявил Маск на Международной астронавтической конференции в Гвадалахаре (Мексика). Он обосновал необходимость своего проекта вопросом выживания человечества, которое для своего сохранения должно стать «космическим видом».
+              </p>
+            </div>
+            <div class="author__img">
+              <p class="author__img-wrap">
+                <img class="author__img" src="#" alt="Фотография Илона Маска - автора проекта">
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="development__price price">
+          <p class="price__img-wrap">
+            <img class="price__img" src="#" alt="Изображение летящей ракеты">
+          </p>
+          <div class="price__desc">
+            <h3 class="price__title">Стоимость перелёта</h3>
+            <p class="price__slogan">
+              Высадка двоих астронавтов на Луну обошлась США в 20 млрд. долларов. Маск стремится сократить эту цифру в 20 000 раз, что составит 500 000 долларов на человека.
+            </p>
+            <div class="price__price-wrap">
+              <span class="price__price">$ 500 k</span>
+              <span class="price__text">
+                и ты на Марсе!
+              </span>
+              <a class="price__buy-btn" href="#">Я готов лететь</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ОГРАНИЧЕНИЯ -->
+      <section class="limits">
+        <h2 class="limits__title">Подводные камни в масштабах космоса</h2>
+        <video width="696" height="86" controls="controls" poster="#">
+          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          Тег video не поддерживается вашим браузером.
+          <a href="video/duel.mp4">Скачайте видео</a>.
+        </video>
+
+      </section>
+      <!-- ОРГАНИЗАЦИЯ ЖИЗНИ -->
+      <section class="living">
+        <h2 class="living__title">Организация жизни в колонии</h2>
+
+      </section>
     </div>
   </main>
+  <!-- ФУТЕР -->
   <footer class="footer">
     <div class="container">
+
     </div>
   </footer>
   <script src="./build/js/index.js"></script>
