@@ -1,0 +1,130 @@
+/* Шрифты */
+
+/*@font-face {
+  font-family: 'Geometria';
+  src: local('Geometria'),
+    url('../fonts/Geometria.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: local('Geometria Medium'), local('Geometria-Medium'),
+    url('../fonts/Geometria-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: local('Geometria Bold'), local('Geometria-Bold'),
+    url('../fonts/Geometria-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}*/
+
+/* Общие стили */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-wrap {
+  display: flex;
+}
+
+.v-hidden,
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+        clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid gray;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ХЕДЕР */
+
+/* НАПРАВЛЕНИЯ */
+
+/* АБОНЕМЕНТЫ */
+
+
+/* НАША КОМАНДА */
+
+/* ОТЗЫВЫ */
+
+/* ЗАПИСЬ */
+
+/* ФУТЕР */
+
+/* Контакты */
+
+.footer .contacts {
+  
+} 
+
+/* Копирайт */
